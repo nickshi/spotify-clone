@@ -10,6 +10,7 @@ import { setToken } from './actions/tokenActions';
 
 import SideMenu from './components/SideMenu';
 import Header from './components/Header';
+import UserPlaylists from './components/UserPlaylists'
 
 class App extends Component {
   constructor(props) {
@@ -46,6 +47,7 @@ class App extends Component {
         </div>
         <div className='left-side-section'>
           <SideMenu/>
+          <UserPlaylists />
         </div>
         
       </div>
